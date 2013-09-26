@@ -718,7 +718,7 @@ EmitterBody.prototype.update = function()
 	}
 	
 	this.svgBody.setAttribute("fill-opacity", "0.05");
-	this.svgBody.setAttribute("stroke-opacity", "0.1");
+	this.svgBody.setAttribute("stroke-opacity", "0.3");
 }
 
 
