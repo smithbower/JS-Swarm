@@ -1,0 +1,39 @@
+<!DOCTYPE html> 
+<html>
+	<meta charset="utf-8"> 
+	<head>
+		<title>
+			JS-Swarm
+		</title>
+
+		<script type="text/javascript" src="swarming.js"></script>
+
+	</head>
+
+	<body onload="Init();">
+		<svg style="width:800px; height:600px;">
+
+		</svg>
+
+		<h2>Controls!</h2>
+		<ul>
+			<li><b>r</b>: Resets the simulation.</li>
+			<li><b>k</b>: Adds an <i>attractive</i> emitter of a random size and strength at the current mouse position.</li>
+			<li><b>l</b>: Adds a <i>repulsive</i> emitter of a random size and strength at the current mouse position.</li>
+			<li><b>p</b>: Adds a predator at a random position.</li>
+			<li><b>b</b>: Adds a new biod at the current mouse position.</li>
+			<li><b>Left Mouse Down</b>: Pull biods towards the mouse.</li>
+			<li><b>Left Mouse Down + Shift</b>: Push biods away from the mouse.</li>
+		</ul>
+
+
+
+		<h2>Colours</h2>
+		<ul>
+			<li><b>red</b>: Claustrophobia is the dominating force (don't want to get too close to your neighbors).</li>
+			<li><b>green</b>: Cohesion is the dominating force (want to move towards and with your neighbors).</li>
+			<li><b>blue</b>: Emitter forces are dominating (something is attracting/repulsing you!).</li>
+		</ul>
+
+	</body>
+</html>
